@@ -11,7 +11,48 @@
     tools:context="com.example.android.happybirthday.MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="纳米学位应用"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:textSize="18sp"
+        android:textColor="#777"/>
+
+    <Button
+        android:text="热门电影"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button"
+        style="@style/button"/>
+
+    <Button
+        android:text="股票雄鹰"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="10dp"
+        style="@style/button"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="XYZ阅读器"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="10dp"
+        style="@style/button"
+        android:id="@+id/button3" />
+
+    <Button
+        android:text="最新闻"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="10dp"
+        style="@style/button"
+        android:id="@+id/button4" />
+
+    <Button
+        android:text="毕业设计"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="10dp"
+        style="@style/button"
+        android:id="@+id/button5" />
 </RelativeLayout>
